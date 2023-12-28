@@ -114,10 +114,6 @@ UIS.InputEnded:Connect(function(input,gp)
 	end
 end)
 
-
-
-
-
 local function applyrecoil(shots,StartShoot)
 	if shots < #RECOILS then
 		shots += 1
